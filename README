@@ -1,0 +1,8 @@
+This script was originally written by Michael Shepanski and posted here:
+http://pushingkarma.com/notebook/setup-dynamic-dns-using-linode/
+
+I've made some tweaks and dropped it in git for anyone else that's looking for
+the same kind of functionallity.  Needs the pycurl python module as well as the
+linode api found here:
+https://github.com/tjfontaine/linode-python
+
