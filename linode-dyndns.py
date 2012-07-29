@@ -71,5 +71,5 @@ def set_dns_target(utarget, udomain=DOMAIN, urecord=RECORD):
 if __name__ == '__main__':
     external_ip = get_external_ip()
     if external_ip:
-        print "set_dns_target(%s, DOMAIN, RECORD)" % external_ip
+        print "set_dns_target(%s, %s, %s)" % ( external_ip, DOMAIN, RECORD )
         #set_dns_target(external_ip, DOMAIN, RECORD)
